@@ -1,36 +1,50 @@
-# Increment_1
-print "Please enter a noun or noun phrase"
-noun1 = gets.chomp
-puts "The #{noun1} went to sea in a sturdy ship"
+
 #Increment_2
 
-def parts_of_speech 
+def parts_of_speech # accepts user input for different variables
 
-	print "Please enter a noun"
-	noun2 = gets.chomp
-	print "Please enter an adjective"
-	adjective = gets.chomp
-	print "Please enter a verb"
-	verb = gets.chomp
-	print "Please enter a adverb"
-	adverb = gets.chomp
-	print "Please enter an object"
-	object = gets.chomp
-	
+	def noun
+		print "Please enter a noun "
+		noun2 = gets.chomp
+	end
+
+	def adjective
+		print "Please enter a adjective "
+		adjective = gets.chomp
+	end
+
+	def verb
+		print "Please enter a verb "
+		verb = gets.chomp
+	end
 	 
+	def adverb
+		print "Please enter a adverb "
+		adverb = gets.chomp
+	end
 
+    def object
+		print "Please enter a object "
+		object = gets.chomp
+	end
 
-userinput = { :noun => noun2,
-           	  :adjective => adjective,
-              :verb => verb,
-              :adverb => adverb,
-              :object => object
-            }
-
-parts_of_speech {|noun2||verb| puts "#{noun2}, #{verb}"}
+	
 end
 
-puts parts_of_speech
+def sentence_template(input_hash) # accept hash as input, displays hash before waiting for user intiiate output of sentence containing hash values.
+	puts input_hash
+	
+	pause = STDIN.gets
+
+  puts "The #{input_hash[:adjective]} #{input_hash[:noun]} suddenly and #{input_hash[:adverb]} had to #{input_hash[:verb]} the #{input_hash[:object]}."
+ 
+end
+ 
+sentence_template :adjective=>parts_of_speech.adjective, :noun=>parts_of_speech.noun, :adverb=>parts_of_speech.adverb, :verb=>parts_of_speech.verb, :object=>parts_of_speech.object
+
+
+
+
 
 
 
