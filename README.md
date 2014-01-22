@@ -1,0 +1,1 @@
+Accepts user input of "noun" variable and returns the noun in sentence "The ____ went to sea in a sturdy ship"
