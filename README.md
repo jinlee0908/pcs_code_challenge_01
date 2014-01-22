@@ -1,3 +1,3 @@
 Accepts user input for a noun, adjective, verb, adverb and object. 
-Creates a hash with the values and displays the hash. 
-Waits for user input, then outputs them in the proper place for the sentence "The (adjective) (noun) suddenly and (adverb) had to (verb) the (object)."
+Creates a hash with the values, then creates an array with different sentence templates. 
+Waits for user to proceed, then outputs each template in the array with the appropriate variables with a pause in between each sentence.
