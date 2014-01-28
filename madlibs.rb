@@ -2,13 +2,13 @@
 class UI
   def prompt(words = {})
     choices = {
-  "1"=>"in a boat",
-  "2"=>"on a bus",
-  "3"=>"inside a whale", 
-  "4"=>"clinging under a speeding truck"}
-  print "Please choose one of the following:\n" 
-  choices.each{|key,value| puts "#{key} : #{value}"}
-  print "by typing the number of your choice: __ \n"
+    "1"=>"in a boat",
+    "2"=>"on a bus",
+    "3"=>"inside a whale", 
+    "4"=>"clinging under a speeding truck"}
+    print "Please choose one of the following:\n" 
+    choices.each{|key,value| puts "#{key} : #{value}"}
+    print "by typing the number of your choice: __ \n"
     words[:mode_of_transportation] = choices [gets.chomp]
     print "Please enter a noun: "
     words[:noun] = gets.chomp
