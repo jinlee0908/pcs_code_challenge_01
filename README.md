@@ -7,4 +7,4 @@ Created Class and modified method name to match madlib instructions. Also refrac
 methods used in Increment_03.
 
 Increment_05
-Create another hash to capture and return a hash value selected by the user. And then incorporated the selected "mode of transportation" into the existing madlibs hash to use in templates. 
+Create another hash to capture and return a hash value selected by the user. And then incorporated the selected "mode of transportation" into the existing madlibs hash to use in templates..
