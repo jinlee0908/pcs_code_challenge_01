@@ -1,4 +1,4 @@
-#Increment_05
+#Increment_05.
 class UI
   def prompt(words = {})
     choices = {
