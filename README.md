@@ -5,3 +5,6 @@ Waits for user to proceed, then outputs each template in the array with the appr
 Increment_04
 Created Class and modified method name to match madlib instructions. Also refractored
 methods used in Increment_03.
+
+Increment_05
+Create another hash to capture and return a hash value selected by the user. And then incorporated the selected "mode of transportation" into the existing madlibs hash to use in templates. 
