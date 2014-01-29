@@ -1,4 +1,6 @@
 #Increment_05.
+require 'pry'
+
 class UI
   def prompt(words = {})
     choices = {
@@ -54,11 +56,11 @@ template = st.insert(response)
 #This prints the stored value from the template var
 puts template[0]
 #This code requires you to press enter to move the script forward.
-pause = STDIN.gets
+binding.pry
 puts template[1]
-pause = STDIN.gets
+binding.pry
 puts template[2]
-pause = STDIN.gets
+binding.pry
 puts template[3]
 
 

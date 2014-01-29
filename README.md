@@ -8,3 +8,6 @@ methods used in Increment_03.
 
 Increment_05
 Create another hash to capture and return a hash value selected by the user. And then incorporated the selected "mode of transportation" into the existing madlibs hash to use in templates..
+
+Increment_05 (version.07)
+replaced pause = STDIN.gets with Pry as it was explained that's what Al meant by the term "break" :) 
